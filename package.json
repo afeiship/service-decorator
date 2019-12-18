@@ -1,5 +1,5 @@
 {
-  "name": "service-decorator",
+  "name": "@feizheng/service-decorator",
   "version": "1.0.0",
   "description": "A decorator for inject service to your context.",
   "main": "index.js",
@@ -17,17 +17,20 @@
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.5.5",
+    "@feizheng/rake-git": "^1.2.1",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
     "cross-env": "^5.2.0",
     "html-webpack-plugin": "^3.2.0",
     "prettier": "^1.18.2",
-    "rake-git": "github:afeiship/rake-git",
     "webpack": "^4.36.1",
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
-    "next-camelize": "github:afeiship/next-camelize"
+    "@feizheng/next-camelize": "^1.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
