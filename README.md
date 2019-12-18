@@ -1,6 +1,11 @@
 # service-decorator
 > A decorator for inject service to your context.
 
+## installation
+```shell
+npm i -S @feizheng/service-decorator
+```
+
 ## usage
 ```js
 // ... 
