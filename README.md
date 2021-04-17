@@ -3,7 +3,7 @@
 
 ## installation
 ```shell
-npm i -S @feizheng/service-decorator
+npm i -S @jswork/service-decorator
 ```
 
 ## usage

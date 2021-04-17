@@ -1,5 +1,5 @@
 var slice = Array.prototype.slice;
-var nxCamelize = require('@feizheng/next-camelize');
+var nxCamelize = require('@jswork/next-camelize');
 
 function requireTarget(inTarget) {
   var target = require('services/' + inTarget);
