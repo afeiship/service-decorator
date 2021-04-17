@@ -1,6 +1,6 @@
 {
-  "name": "@feizheng/service-decorator",
-  "version": "1.0.1",
+  "name": "@jswork/service-decorator",
+  "version": "1.0.0",
   "description": "A decorator for inject service to your context.",
   "main": "index.js",
   "repository": "git@github.com:afeiship/service-decorator.git",
@@ -32,6 +32,11 @@
     "@jswork/next-camelize": "^1.0.0"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "keywords": [
+    "service",
+    "decorator"
+  ]
 }
